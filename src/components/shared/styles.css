@@ -1,0 +1,31 @@
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid grey;
+    border-radius: 27px;
+    width:25vw;
+
+}
+
+.screen {
+    background-color: white;
+    margin: 0 2vw;
+    border-radius: 1vw;
+}
+.pokemon-image {
+    width: 10vw
+}
+
+.name {
+    font-family: 'PokemonClassic', system-ui;
+    font-size: large;
+}
+
+@font-face {
+    font-family: 'PokemonClassic';
+    src: url('../../../public/Pokemon-Classic.ttf') format('truetype');
+  }
