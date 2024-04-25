@@ -1,10 +1,9 @@
 import React from 'react'
-import styles from './styles.css'
 
 function Footer() {
   return (
     <>
-      <div className='hola'>Hola</div>
+      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Pokedex</div>
     </>
   )
 }

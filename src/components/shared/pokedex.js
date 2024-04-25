@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './styles.css'
+import './styles.css'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -37,7 +37,7 @@ function Pokedex(props) {
                 <h1 className='name'>{capitalizeFirstLetter(element.name)} </h1>
               </Typography>
               <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                Weight: {element.weight} Kg / Height: {element.height } {element.height} Mts
+                Weight: {element.weight} lb / Height: {element.height } {element.height} ft
               </Typography>
               <div className="screen">
               <img src={element.sprites.front_default} alt="does not work" className='pokemon-image' />
